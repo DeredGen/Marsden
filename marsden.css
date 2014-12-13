@@ -1,0 +1,49 @@
+#marsden-input {
+    position:fixed;
+    left:0;
+    top:0;
+    width: 50%;
+    box-sizing: border-box;
+    bottom:0;
+    outline:0;
+    border:none;
+    resize:none;
+    background:aliceblue;
+    font-size:15px;
+    color:#555;
+    display:block;
+    height:100%
+}
+#marsden-output {
+    position:fixed;
+    left:50%;
+    top:0;
+    width: 50%;
+    box-sizing: border-box;
+    outline:0;
+    bottom:0;
+    overflow:auto;
+    border:none;
+    padding:5px;
+    height:100%;
+}
+#marsden-nojs {
+    position:fixed;
+    top:0;
+    left:0;
+    background:tomato;
+    padding:25%;
+    overflow:hidden;
+    color:white;
+    right:0;
+    bottom:0;
+}
+#marsden-nojs a {
+    color:white;
+}
+#marsden-nojs h1 {
+    width:75px;
+}
+body {
+    font-family:segoe UI light,segoe UI,open sans,sans-serif;
+}
